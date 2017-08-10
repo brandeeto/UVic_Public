@@ -1,11 +1,9 @@
 # UVic_Public
 
-Checkout our SENG499 Project!
-
+Checkout our SENG499 Project! 
 https://demo.uvicorderofpi.ca/
 
-and our associated website explaining the process,
-
+and our associated website explaining the process, 
 http://web.uvic.ca/~bmh/
 
 
