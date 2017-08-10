@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block body %}
+    <div class="info-space">
+        <div class="row">
+            <div class="panel-body text-center">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 text-center">
+                        <h3>By Authority of the Most Glorious Order of Pi<br><br></h3>
+                        <img src="{% static 'img/Pi_contract_logo.png' %}" style="width:100px;height:100px;"><br><br>
+
+                        <p>
+                            We, the UVic Engineering Order of Pi, do hereby proclaim the offering of our services for the naming of charges for the year 2017! All ye who wish
+                            to see a friend or loved one stand trial must phone the most Glorious Order of Pi at 250-721-8822, or visit www.uvicorderofpi.ca to place thine order!
+                            The Court of the Inquisition shall be open from March the 13th to the 17th 2017, and NONE shall escape our Farm Fresh Wrath!
+                        </p>
+
+                        <p>
+                            All proceeds will go to the Children's Health Foundation of Vancouver Island
+                        </p>
+
+                        <p>We have been summoned to <b>{{ contract_info.trial_location }}</b></p>
+                        <p>On today the <b>{{ contract_info.trial_date }}</b></p>
+                        <p>By none other than <b>{{ contract_infor.issuer }}</b></p>
+                        <p>So we may try <b>{{ contract_info.target }}</b></p>
+                        <p>On the first degree charge of <br><b>{{ contract_info.charges }}</b></p>
+                        <p>The donation of the accusor stands at <b>${{ contract_info.indicated_value }}</b></p>
+
+                        <p>In order to successfully plead their innocence, the defendant must pledge a donation of at least five dollars greater than this amount! If found guilty, the defendant shall suffer at the hand of our delicious justice!</p>
+
+                        <h>The Verdict: _________________</h><br><br>
+                        <p>By the authority vested in my by the Glorious Order of Pi, This parchment shall protect the accused from furthur procecution. Keep it on your person for the remainder of the event </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,17 @@
+.banner {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.banner-light {
+    background-color: #8F91A2;
+}
+
+.banner-dark {
+    background-color: #7F8787;
+}
+
+.info-space {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}

@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block banner-title-content %}
+Ranks
+{% endblock %}
+
+{% block content %}
+<div class="row info-space">
+    <div class="col-md-4 col-md-offset-2 col-sm-6 col-sm-offset-0 col-xs-3 col-xs-offset-3">
+        <img class="center-img-circle" src="{%static 'img/ranks/inquisitor.jpg'%}">
+        <div class="text-center ranks-description">
+            <h4>Inquistor</h4>
+            <p>
+                Cruel but fair, the Inquisitor reads the charges and hears the case for the Defendant.
+                If the Defendant has not the cash to plead innocence (whatever the Accuser has paid plus
+                an additional five dollars), the Inquisitor will have no choice but to find the defendant
+                Guilty and pass the sentence of an immediate pie in the face of
+                the condemned!
+            </p>
+        </div>
+    </div>
+    <div class="col-md-4 col-sm-6  col-xs-3 ">
+        <img class="center-img-circle" src="{% static 'img/ranks/counsellor.jpg'%}">
+        <div class="text-center ranks-description">
+            <h4>Counsellor</h4>
+            <p>
+                A monk of the people, the Counsellor guides the Defendant through the rigors
+                of the trial, explaining the charges and options open to him or
+                her. Even if the Defendant is found guilty as charged, the
+                Counsellor will still stand by the Condemned for the
+                execution.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 col-md-offset-2 col-sm-6 col-sm-offset-0 col-xs-3 col-xs-offset-3">
+        <img class="center-img-circle" src="{%static 'img/ranks/undertaker.jpg'%}">
+        <div class="text-center ranks-description">
+            <h4>Undertaker</h4>
+            <p>
+                The Undertaker is  equipped with the
+                ceremonial Headgear of Meringem The Unstainable, as
+                well as numerous moist-towelettes. The Undertaker fits the
+                protective headgear on the Condemned before guiding
+                them to the Execution Stocks: In this way, the
+                Condemned's hair and clothing is shielded from
+                the farm-fresh wrath of the Order of Pi!
+            </p>
+        </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-3">
+        <img class="center-img-circle" src="{%static 'img/ranks/piebearer.jpg'%}">
+        <div class="text-center ranks-description">
+            <h4>Pie Bearer</h4>
+            <p>
+                Only the most virtuous and pure of the Order of Pi may
+                be Pie Bearers. These members of The Order devote their
+                time to making and transporting the sacred pies of
+                Justice from the bakery of righteousness to the faces of
+                the wicked.
+            </p>
+        </div>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-md-4 col-md-offset-2 col-sm-6 col-sm-offset-0 col-xs-3 col-xs-offset-3">
+        <img class="center-img-circle" src="{%static 'img/ranks/bard.jpg'%}">
+        <div class="text-center ranks-description">
+            <h4>Bard</h4>
+            <p>
+                The Bard is the time honored guardian of the Blaster
+                of Flakeacrustus, the musical relic from which the
+                Piethagorean Chant of the Order of Pi does emanate. The
+                Piethagorean Chant accompanies the Order as it goes about
+                its noble business, filling the wicked with terror and the
+                righteous with glee as it grows ever louder while Justice
+                draws near!
+            </p>
+        </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-xs-3">
+        <img class="center-img-circle" src="{%static 'img/ranks/executioner.jpg'%}">
+        <div class="text-center ranks-description">
+            <h4>Executioner</h4>
+            <p>
+                Silent and inscrutable, the Executioner is the most
+                mysterious and fearsome member of the Inquisition. Trained
+                extensiveley in the art of pieing, and posessing of
+                incredible strength, the Executioner is the only member
+                of the Order of Pi sanctioned to carry out the Sentence
+                of the Condemned.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-4 col-sm-8 col-sm-offset-2">
+                <h4 class="text-center">
+                    These positions are filled by people like you!
+                </h4>
+                <br>
+                <div class="text-center">
+                    <a class="btn btn-success btn-lg" href="{% url 'volunteer_signup' %}">Sign up to volunteer!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

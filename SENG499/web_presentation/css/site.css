@@ -1,0 +1,94 @@
+.bg-img {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bg-home {
+    margin-top: -20px;
+    background-image: linear-gradient(to bottom, rgba(9, 42, 87, 0.4), rgba(130, 80, 32, 0.6)), url('../img/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 35%;
+    background-position-x: center;
+}
+
+.bg-pages {
+    padding: 90px 0;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to bottom, rgba(148 ,176 ,218, 0.7), rgba(240,149,115, 0.6)), url('../img/lifeofcream.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 35%;
+    background-position-x: center;
+}
+
+.bg-txt {
+    color: white;
+}
+
+.banner {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.banner-light {
+    background-color: #F2F2F2;
+}
+
+.banner-dark {
+    background-color: #B1ECE1;
+}
+
+.info-space {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.center-img-circle {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+}
+
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.orderofpi-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    line-height: 65px;
+}
+
+.orderofpi-text {
+    font-family: 'Pacifico', cursive;
+}
+
+
+.header-text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    line-height: 45px;
+    color: white;
+}
+
+.crop-top {
+  margin-top: 0px;
+}
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+
+.carousel-caption p {
+  color: #646B73;
+  text-shadow: 0px;
+}

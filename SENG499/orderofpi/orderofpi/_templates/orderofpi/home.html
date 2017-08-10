@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block head-banner %}
+    <div class="bg-img bg-home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1">
+                    <div class="text-center">
+                        <h1 class="bg-txt"><span class="orderofpi-title">The Order of Pi</span></h1>
+                        <h2 class="bg-txt">By<br>The UVic Engineering Student Society</h2>
+                        <br>
+                        <a class="btn btn-info btn-lg" style="margin: 4px 2px" href="{% url 'create_contract' %}">Lay Charges</a>
+                        <a class="btn btn-info btn-lg" style="margin: 4px 2px" href="{% url 'contract_lookup' %}">Find Charges</a>
+                        <a class="btn btn-info btn-lg" style="margin: 4px 2px" href="{% url 'volunteer_signup' %}">Volunteer!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock head-banner %}
+
+{% block container %}
+
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1">
+                    <h2 class="text-center">
+                        {% if CommitedDonationTotal is not None %}
+                            ${{ CommitedDonationTotal }} Raised!
+                            <br><br>
+                        {% endif %}
+                        <small>The Time of Judgment is upon you. The Order of Pi has cometh to formeth again to bringeth those who are deemed worthy to cream filled justice.</small>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner banner-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2 class="bg-txt text-center">How it works</h2>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+                            <div class="text-center bg-txt">
+                                <h2><i class="fa fa-bullseye fa-3x" aria-hidden="true"></i></h2>
+                                <br>
+                                <h4>Choose your target and give us the reason of your accusations.</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+                            <br class="visible-xs">
+                            <div class="text-center bg-txt">
+                                <h2><i class="fa fa-usd fa-3x" aria-hidden="true"></i></h2>
+                                <br>
+                                <h4>Set your donation amount. Make sure to get your funds to us!</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+                            <br class="visible-xs">
+                            <div class="text-center bg-txt">
+                                <h2><i class="fa fa-gavel fa-3x" aria-hidden="true"></i></h2>
+                                <br>
+                                <h4>Watch the sweet sweet justice be served. Order of Pi style.</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <a class="btn btn-info btn-lg" style="margin: 4px 2px" href="{% url 'rules' %}">Complete Rules</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2 class="text-center">
+                        <small>
+                            Have you a worthy candidate for the Order to maketh repent for their unsweetened ways? Then pledge your funds by phone, online, or by person, to the Engineering Student Society.
+                            Proceeds go to the Children's Health Foundation of Vancouver Island (formerly Queen Alexandra Foundation for Children). There is a minimum donation of $20, but feel free to donate more.
+                            The proceeds will be donated to children in need.
+                        </small>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner banner-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-4 col-sm-8 col-sm-offset-2">
+                    <h4 class="text-center bg-txt">
+                        Feel like being involved in the fun?
+                    </h4>
+                    <br>
+                    <div class="text-center">
+                        <a class="btn btn-success btn-lg" href="{% url 'volunteer_signup' %}">Sign up to volunteer!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-4 col-sm-8 col-sm-offset-2">
+                    <h2 class="text-center">
+                        <small>All proceeds go to Children's Health Foundation!</small>
+                    </h2>
+                    <br>
+                    <a href="https://childrenshealthvi.org/"><img alt="Children's Health Foundation Vancouver Island" src="{% static 'img/orderofpi/childrensfoundation.png' %}"  style="width: 300px; display:block; margin:auto;"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock container %}

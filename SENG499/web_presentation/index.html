@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <title>The Re-Order of Pi, a SENG 499 Project.</title>
+        <meta name="description" content="The Re-Order Of Pi. A SENG 499 Project.">
+        <meta name="author" content="The Re-Order of Pi">
+        <link rel="icon" href="img/pigear.png">
+
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-milestones.min.css">
+        <link rel="stylesheet" type="text/css" href="css/site.css">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+        <div>
+
+          <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><i class="fa fa-pie-chart" aria-hidden="true"></i> <span class="orderofpi-text">Re-Order of Pi</span></a>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li><a href="#event">Event</a></li>
+                  <li><a href="#project">Project</a></li>
+                  <li><a href="#technologies">Technologies</a></li>
+                  <li><a href="#process">Process</a></li>
+                  <li><a href="#references">References</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </nav>
+
+          <div class="bg-img bg-home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1">
+                        <div class="text-center">
+                            <br>
+                            <h1 class="bg-txt"><span class="orderofpi-title">The Re-Order of Pi</span></h1>
+                            <br>
+                            <h2 class="bg-txt header-text">A SEng 499 Project<br>For The Engineering Student Society</h2>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <div id="event" class="banner">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-8 col-sm-offset-2">
+                          <h2 class="orderofpi-text text-center">The Event</h2>
+                          <h2 class="text-center">
+                              <small>
+                                During the week of March 14th, The UVic Engineering Student Society (ESS) runs The Order of Pi, an event where students, staff, and alumni can be pied by their peers by donation. All proceeds of the event are donated to the Children’s Health Foundation of Vancouver Island.
+                              </small>
+                          </h2>
+                          <h2 class="text-center">
+                              <small>
+                                Being a student run event, the organizers oftentimes do not the time needed to run the order of pi event. Currently donations are in-person cash payments, volunteers are scheduled by pen and paper and the system organizing the event contracts is on a archaic system that is not maintained.
+                              </small>
+                          </h2>
+                          <h2 class="text-center">
+                              <small>
+                                To give back to the university and the Engineering Student Society, this project focuses on the event organizational inefficiencies and finds the appropriate optimizations and suistainable technologies at a student budget.
+                              </small>
+                          </h2>
+                          <h2 class="text-center">
+                              <small>
+                                <i class="fa fa-pie-chart" aria-hidden="true"></i>
+                              </small>
+                          </h2>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div id="project" class="banner banner-light">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-8 col-sm-offset-2">
+                          <h2 class="orderofpi-text text-center">The Project</h2>
+                          <h2 class="text-center">
+                            <small>
+                              The project, Re-Order of Pi, had the main goal of optimizing the background processes for ESS event organizers while creating an interally maintainable application for future considerations.
+                              The key components to this include:
+                            </small>
+                          </h2>
+                          <br>
+                          <div class="row">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                              <h3 class="text-center">
+                                <small>
+                                  <i class="fa fa-3x fa-sticky-note" aria-hidden="true"></i><br>
+                                  Contract Management
+                                </small>
+                              </h3>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                              <h3 class="text-center">
+                                <small>
+                                  <i class="fa fa-3x fa-usd" aria-hidden="true"></i><br>
+                                  Donation Process
+                                </small>
+                              </h3>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                              <h3 class="text-center">
+                                <small>
+                                  <i class="fa fa-3x fa-user-circle" aria-hidden="true"></i><br>
+                                  Volunteer Sign-up
+                                </small>
+                              </h3>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12">
+                              <h3 class="text-center">
+                                <small>
+                                  <i class="fa fa-3x fa-lock" aria-hidden="true"></i><br>
+                                  Intuitive Admin
+                                </small>
+                              </h3>
+                            </div>
+                          </div>
+                          <br>
+                          <h2 class="text-center">
+                            <small>
+                              We are a team building a product for the ESS to improve their ability to run the Order of Pi, a week long event that involves many logisitical elements. Understanding the workflow of the event is key to building the right product for the event. Jason Syrotuck, our team lead, has acted as Charity Coordinator for the ESS on two occasions, and was responsible for the events operations. We consulted with other past Order of Pi organizers and developed a functional requirements matrix to help describe what the web app needs to do, and prioritize the different aspects, this was the first major step in our design phase.
+                              <br><br>
+                              After understanding what the web application needs to do, we developed an entity relationship diagram to describe the database tables and columns. In conjunction with the ER diagram we developed a simple workflow diagram, showing the connections and interactions between pages. 
+                            </small>
+                          </h2>
+
+                          <br>
+                          <h2 class="text-center">
+                            <small>
+                              Application Page Examples
+                            </small>
+                          </h2>
+                          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                              <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                              <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                              <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+                              <li data-target="#myCarousel" data-slide-to="4" class=""></li>
+                              <li data-target="#myCarousel" data-slide-to="5" class=""></li>
+                            </ol>
+
+                            <div class="carousel-inner" role="listbox">
+
+                              <div class="item active">
+                                <img class="first-slide" src="img/oop_contract_create.png" alt="First slide">
+                                <div class="container">
+                                  <div class="carousel-caption">
+                                    <p>Create a contract.</p>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item">
+                                <img class="second-slide" src="img/oop_donation_options.png" alt="Second slide">
+                                <div class="container">
+                                  <div class="carousel-caption">
+                                    <p>Donations option when creating a contract.</p>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item">
+                                <img class="third-slide" src="img/oop_stripe.png" alt="Third slide">
+                                <div class="container">
+                                  <div class="carousel-caption">
+                                    <p>Stripe payments.</p>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item">
+                                <img class="fourth-slide" src="img/oop_extend_id.png" alt="Fourth slide">
+                                <div class="container">
+                                  <div class="carousel-caption">
+                                    <p>Search a contract by identifier.</p>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item">
+                                <img class="fifth-slide" src="img/oop_volunteer.png" alt="Fifth slide">
+                                <div class="container">
+                                  <div class="carousel-caption">
+                                    <p>Volunteer sign-up.</p>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="item">
+                                <img class="sixth-slide" src="img/oop_admin.png" alt="Sixth slide">
+                                <div class="container">
+                                  <div class="carousel-caption">
+                                    <p>Intuitive admin page.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+
+                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+
+                          <h2 class="text-center">
+                            <small>
+                               The development language was key for maintainability, we considered Python first, favoring readability over all other considerations. Django, a Python web application framework, some group members had experience with Django, and all were comfortable with Python, making it the ideal choice for development. 
+                            </small>
+                          </h2>
+                          <h2 class="text-center">
+                              <small>
+                                <i class="fa fa-pie-chart" aria-hidden="true"></i>
+                              </small>
+                          </h2>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div id="technologies" class="banner">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-8 col-sm-offset-2">
+                          <h2 class="orderofpi-text text-center">Technologies</h2>
+
+                          <br>
+                          <div class="row">
+                            <div class="col-md-4">
+                              <img class="img-center" style="width: 150px; margin-top: 35px;" src="img/tech/django.png">
+                            </div>
+                            <div class="col-md-8">
+                              <h2 class="text-center">
+                                <small>
+                                  To create a base layer that other components can be built upon, many web applications use a framework for rapid development while using standardized base code. Although many frameworks exist, Django was an obvious choice due to our team’s background with Python. It offered an extendable solution while offering protection against many security flaws that exist in web applications such as Cross Site Scripting, Cross Site Forgery Requests, and SQL Injection to name a few. Furthermore, Django offers many different versions that have been evolving over the years. The Order of Pi web application needs to have maintained solutions so that future students involved with the Engineering Student Society are not constantly concerned with security and data-loss patches. This led to the decision to use Django version 1.11LTS, which is the latest Long Term Support solution offered by Django. This version will be maintained until April 2020 with feature releases every 8 months as well as applied security and data-loss fixes.
+                                </small>
+                              </h2>
+                            </div>
+                          </div>
+
+                          <br>
+                          <div class="row">
+                            <div class="col-md-4">
+                              <img class="img-center" style="width: 150px; margin-top: 35px;" src="img/tech/stripe.png">
+                            </div>
+                            <div class="col-md-8">
+                              <h2 class="text-center">
+                                <small>
+                                  The main reasons for rebuilding the Order’s site was to make it easier for the organizers to run, and to bring in online payments to make it easier and more convenient for people to donate. Many options were researched with regards to online payments but Stripe was chose due to the ease of integration as well as having the lowest fees. The stripe checkout widget is used to verify and validate the credit card information entered, this also keeps all of the sensitive credit card information off the site.
+                                </small>
+                              </h2>
+                            </div>
+                          </div>
+
+                          <br>
+                          <div class="row">
+                            <div class="col-md-4">
+                              <img class="img-center" style="width: 150px; margin-top: 35px;" src="img/tech/nginx.png">
+                            </div>
+                            <div class="col-md-8">
+                              <h2 class="text-center">
+                                <small>
+                                  The webserver for the Order's site consists of two separate modules, working hand-in-hand. The first of which is the uWSGI module; tasked with packaging and serving the Django Python application in a format that front-end webservers can understand. NGINX is the front-facing component of the webserver; efficiently handling the user's requests, providing load balancing, and leveraging the standard in encryption technology to ensure all transactions are secured. uWSGI and NGINX communicate directly through their own server-side port, together forming the Order's webserver.
+                                </small>
+                              </h2>
+                            </div>
+                          </div>
+
+                          <br>
+                          <div class="row">
+                            <div class="col-md-4">
+                              <img class="img-center" style="width: 150px; margin-top: 35px;" src="img/tech/mysql.png">
+                            </div>
+                            <div class="col-md-8">
+                              <h2 class="text-center">
+                                <small>
+                                  For this project the team was hoping to use Postgres as a query language as it is what we had learned in school, but it was far easier to work with the existing setup. The ESS runs a MySQL database on thier server which is version 5.5 so everything implemented needed to be able to run on that. A schema with five new tables was created to facilitate the development of the project.
+                                </small>
+                              </h2>
+                            </div>
+                          </div>
+
+                          <br>
+                          <div class="row">
+                            <div class="col-md-4">
+                              <img class="img-center" style="width: 150px; margin-top: 35px;" src="img/tech/cloudflare.svg">
+                            </div>
+                            <div class="col-md-8">
+                              <h2 class="text-center">
+                                <small>
+                                  Cloudflare provides the Order's SSL certificates, giving us the ability to properly authenticate with our users. Having properly signed SSL certificates is a fundamental foundation for any trusted website leverage the HTTPS protocol. This gives the users peace-of-mind knowing that all transactions, including credit card transactions, remain secure.
+                                </small>
+                              </h2>
+                            </div>
+                          </div>
+
+
+                          <br>
+                          <h2 class="text-center">
+                              <small>
+                                <i class="fa fa-pie-chart" aria-hidden="true"></i>
+                              </small>
+                          </h2>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Just to break things up -->
+          <div class="bg-pages">
+          </div>
+
+          <div id="process" class="banner">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-8 col-sm-offset-2">
+                          <h2 class="orderofpi-text text-center">Process</h2>
+
+                          <br>
+                          <h2 class="text-center">
+                            <small>
+                              This project includes replacing an existing product with an improved tool, in this case, a web application. It's important to ensure that the specialized departments are facilitated by team members experienced in the area.</small>
+                          </h2>
+
+                          <br><br>
+                          <h4 class="text-center">
+
+                              Assigned team roles:
+
+                          </h2>
+                          <br><br>
+                          <div class="row">
+                              <div class="col-md-3 col-sm-6">
+                                  <img class="center-img-circle" src="img/team/cortland.jpg">
+                                  <div class="text-center">
+                                      <h4>Cortland<br>Thibodeau</h3>
+                                      <h3 class="crop-top"><small>System Architecture</small></small>
+                                      <br>
+                                  </div>
+                              </div>
+                              <div class="col-md-3 col-sm-6">
+                                  <img class="center-img-circle" src="img/team/brandon.jpg">
+                                  <div class="text-center">
+                                      <h4>Brandon<br>Harvey</h3>
+                                      <h3 class="crop-top"><small>DevOps and Mid-Tier Systems</small></small>
+                                      <br>
+                                  </div>
+                              </div>
+                              <div class="col-md-3 col-sm-6">
+                                  <img class="center-img-circle" src="img/team/jason.jpg">
+                                  <div class="text-center">
+                                      <h4>Jason<br>Syrotuck</h3>
+                                      <h3 class="crop-top"><small>Team Lead</small></small>
+                                      <br>
+                                  </div>
+                              </div>
+                              <div class="col-md-3 col-sm-6">
+                                  <img class="center-img-circle" src="img/team/justin.jpg">
+                                  <div class="text-center">
+                                      <h4>Justin<br>Macaulay</h3>
+                                      <h3 class="crop-top"><small>Database Systems</small></small>
+                                      <br>
+                                  </div>
+                              </div>
+                          </div>
+
+                          <br>
+                          <h2 class="text-center">
+                            <small>
+                              There are some critical steps that must be taken when replacing an existing system and workflow with a new one. First we must examine the existing system, the functionality that exists, and how it is currently used. Secondly is understanding the motivation for the new system, what functionality is missing? What existing workflows are not effective? After that we design and outline the new system, what it will do, and what other systems it will integrate with, and bringing that design to the product owners to ensure we are building the right product. Lastly is to design and implement the components of the system, starting with the most core components and the less critical aspects.
+                            </small>
+                          </h2>
+                          <br>
+                          <div class="info-space">
+                            <ul class="milestones">
+                              <li>
+                                <h4>Project Milestones</h4>
+                              </li>
+
+                              <li>
+                                <i class="milestone-primary glyphicon glyphicon-user"></i>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                    <strong>Milestone 0</strong> - Role Assignment
+                                  </div>
+                                  <ul class="list-group">
+                                    <li class="list-group-item">
+                                      Internal roles assigned to team members based on experience.
+                                    </li>
+                                  </ul>
+                                </div>
+                              </li>
+
+                              <li>
+                                <i class="milestone-default glyphicon glyphicon-arrow-right"></i>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                    <strong>Milestone 1.1</strong> - Requirements Gathering
+                                  </div>
+                                  <ul class="list-group">
+                                    <li class="list-group-item">
+                                      Requirements elicication to find the project scope. Requirements were then documented and prioritized.
+                                    </li>
+                                  </ul>
+                                </div>
+                              </li>
+
+                              <li>
+                                <i class="milestone-default glyphicon glyphicon-arrow-right"></i>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                    <strong>Milestone 1.2</strong> - Tool Research
+                                  </div>
+                                  <ul class="list-group">
+                                    <li class="list-group-item">
+                                      Tools and technologies researched that will allow the application to work with current the current ESS system as well as be maintainable in the future.
+                                    </li>
+                                  </ul>
+                                </div>
+                              </li>
+
+                              <li>
+                                <i class="milestone-default glyphicon glyphicon-arrow-right"></i>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                    <strong>Milestone 1.3</strong> - Development Environment Set-Up
+                                  </div>
+                                  <ul class="list-group">
+                                    <li class="list-group-item">
+                                      Tools and technologies researched that will allow the application to work with current the current ESS system as well as be maintainable in the future.
+                                    </li>
+                                  </ul>
+                                </div>
+                              </li>
+
+                              <li>
+                                <i class="milestone-default glyphicon glyphicon-arrow-right"></i>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                    <strong>Milestone 2</strong> - Documentation and Requirements Finalization
+                                  </div>
+                                  <ul class="list-group">
+                                    <li class="list-group-item">
+                                      The documentation surrounding the functional requirements of the website, the functionality of the database, and the outline of the flow for the website is to be completed. This will allow the development of the site to proceed quickly due to the major issues being worked out first.
+                                    </li>
+                                  </ul>
+                                </div>
+                              </li>
+
+                              <li>
+                                <i class="milestone-default glyphicon glyphicon-arrow-right"></i>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                    <strong>Milestone 3</strong> - Architecture Skeleton and Dependencies
+                                  </div>
+                                  <ul class="list-group">
+                                    <li class="list-group-item">
+                                      A broad start towards the minimum viable product, the skeleton work including all views, url tree, HTML templates, and page dependencies completed across all required pages of the website.
+                                    </li>
+                                  </ul>
+                                </div>
+                              </li>
+
+                              <li>
+                                <i class="milestone-warning glyphicon glyphicon-eye-open"></i>
+                                <strong>Team review</strong> of development environments and team architecture review.
+                              </li>
+
+                              <li>
+                                <i class="milestone-default glyphicon glyphicon-arrow-right"></i>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                    <strong>Milestone 4</strong> - Minimum Viable Product (MVP)
+                                  </div>
+                                  <ul class="list-group">
+                                    <li class="list-group-item">
+                                      Critical components of the website functioning such as user log-in and contract management actions. Online payments were not mandatory for this milestone, but were reviewed.
+                                    </li>
+                                  </ul>
+                                </div>
+                              </li>
+
+                              <li>
+                                <i class="milestone-default glyphicon glyphicon-arrow-right"></i>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                    <strong>Milestone 4</strong> - Minimum Viable Product (MVP)
+                                  </div>
+                                  <ul class="list-group">
+                                    <li class="list-group-item">
+                                      Critical components of the website functioning such as user log-in and contract management actions. Online payments were not mandatory for this milestone, but were reviewed.
+                                    </li>
+                                  </ul>
+                                </div>
+                              </li>
+
+                              <li>
+                                <i class="milestone-default glyphicon glyphicon-arrow-right"></i>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                    <strong>Milestone 5</strong> -  Medium Priority Requirements and Team Webpage
+                                  </div>
+                                  <ul class="list-group">
+                                    <li class="list-group-item">
+                                      Implement requirements that are below critical, such as requirements with priority 2 or 3. These requirements included the payment processing, volunteer signup and email templates.
+                                    </li>
+                                  </ul>
+                                </div>
+                              </li>
+
+                              <li>
+                                <i class="milestone-warning glyphicon glyphicon-eye-open"></i>
+                                <strong>Team review</strong> of application to this point to ensure meeting requirements.
+                              </li>
+
+                              <li>
+                                <i class="milestone-default glyphicon glyphicon-arrow-right"></i>
+                                <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                    <strong>Milestone 6</strong> - Low Priority Requirements and Finalizations
+                                  </div>
+                                  <ul class="list-group">
+                                    <li class="list-group-item">
+                                       A buffer for outstanding items that occur from previous milestones as well as an opportunity to complete low priority requirements. This milestone also included having the SSL certifications, NGNIX and uWSGI communicating on the server for the public presentations.
+                                    </li>
+                                  </ul>
+                                </div>
+                              </li>
+
+                              <li>
+                                <i class="milestone-success glyphicon glyphicon-ok"></i>
+                                Project complete for public presentations.
+                              </li>
+                            </ul>
+
+                            <br>
+                            <h2 class="text-center">
+                              <small>
+                                Overall the project was a success with a product that will significantly improve the ability for the Charity Co-ordinator of the ESS to better run the Order of Pi. This experiences satisfied lots of goals for our team members, building a solution from requirements to release as a group, working with new technologies, and reaping the benefits of strong development practices early in development. We are excited to give back to the school community to help raise money for charity, we hope that the Pies of justice find unjust faces everywhere. 
+                              </small>
+                            </h2>
+
+                            <br>
+                            <h2 class="text-center">
+                              <small>
+                                Thank you to Dr. Thomo for your supervision and support on this project.
+                              </small>
+                            </h2>
+
+                            <br>
+                            <h2 class="text-center">
+                                <small>
+                                  <i class="fa fa-pie-chart" aria-hidden="true"></i>
+                                </small>
+                            </h2>
+                            <br>
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div id="references" class="banner banner-dark">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-8 col-sm-offset-2">
+                          <h2 class="orderofpi-text text-center">References</h2>
+                          <h2><small>[1]	"Security in Django | Django documentation | Django", Docs.djangoproject.com, 2017. [Online]. Available: https://docs.djangoproject.com/en/1.11/topics/security/. [Accessed: 26- Jul- 2017].</small></h2>
+                          <h2><small>[2]	"Download Django | Django", Djangoproject.com, 2017. [Online]. Available: https://www.djangoproject.com/download/. [Accessed: 26- Jul- 2017].</small></h2>
+                          <h2><small>[3]  "Documentation", Stripe.com, 2017. [Online]. Available: https://stripe.com/docs. [Accessed: 30- Jul- 2017].</small></h2>
+                          <h2><small>[4]  "NGINX and NGINX Plus Admin Guide | NGINX", NGINX, 2017. [Online]. Available: https://www.nginx.com/resources/admin-guide/. [Accessed: 30- Jul- 2017].</small></h2>
+                          <h2><small>[5]  "MySQL :: MySQL Documentation", Dev.mysql.com, 2017. [Online]. Available: https://dev.mysql.com/doc/. [Accessed: 31- Jul- 2017].</small></h2>
+                          <h2><small>[6]  "Cloudflare API documentation v4", Api.cloudflare.com, 2017. [Online]. Available: https://api.cloudflare.com/. [Accessed: 31- Jul- 2017].</small></h2>
+                          <h2><small>[7]  "The uWSGI project — uWSGI 2.0 documentation", Uwsgi-docs.readthedocs.io, 2017. [Online]. Available: https://uwsgi-docs.readthedocs.io/en/latest/. [Accessed: 31- Jul- 2017].</small></h2>
+                      </div>
+                  </div>
+                </div>
+          </div>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/bootstrap-3.3.7/js/bootstrap.js"></script>
+
+    </body>
+</html>

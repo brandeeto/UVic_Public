@@ -1,0 +1,8 @@
+Thank you {{ receive_name }} for offering to help with the Order of Pi.
+
+We will contact your shortly about volunteering. 
+
+If you have any questions, stop by ELW 206.
+
+The Order of Pi
+ - Justice is Sweet

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block banner-title-content %}
+    <i class="fa fa-thumbs-up fa-2x" aria-hidden="true"></i><br>Thanks!
+{% endblock %}
+
+{% block content %}
+    <div class="info-space">
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-4 col-sm-8 col-sm-offset-2 text-center">
+                <h3>{{ text }}</h3>
+                <br>
+                <a class="btn btn-success btn-lg" href="{% url 'home' %}">Back home</a>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

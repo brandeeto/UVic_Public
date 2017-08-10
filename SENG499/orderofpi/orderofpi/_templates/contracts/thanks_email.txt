@@ -1,0 +1,8 @@
+Thank you {{ receive_name }} for submitting a comtract for the Order of Pi. 
+
+We will review the request and confirm (via email) shortly.
+
+If you have any questions, stop by the ESS Office in ELW 206.
+
+The Order of Pi
+ - Justice is Sweet
