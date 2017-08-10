@@ -1,0 +1,1 @@
+The user is able to delete a campaign or a volunteer from the organizations database. This deletion will completely remove the campaign or volunteer from every location within the organization aside from the history table.
