@@ -5,7 +5,7 @@ chardet==3.0.4
 cryptography==1.9
 Django==1.11.2
 django-crispy-forms==1.6.1
-django-registration==2.2
+django-registration==3.1.2
 enum34==1.1.6
 idna==2.5
 ipaddress==1.0.18
